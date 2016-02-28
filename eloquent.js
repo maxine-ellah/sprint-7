@@ -24,3 +24,15 @@ function isEven(number) {
     return isEven(number) ;
   }
 }
+
+BEAN COUNTING
+
+function countBs(word){
+  var counter = 0
+  for (var i=0; i<word.length; i++) {
+    if (word.charAt(i) == "B"){
+    counter = counter + 1
+    }
+    }
+  return counter
+}
